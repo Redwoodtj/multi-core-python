@@ -1,9 +1,9 @@
-# multi-core-python
+# redwoodtj
 Enabling CPython multi-core parallelism via subinterpreters.
 
 This repo is for tracking the effort and as a place to keep any tooling.
 
-[wiki](https://github.com/ericsnowcurrently/multi-core-python/wiki) | [projects](https://github.com/ericsnowcurrently/multi-core-python/projects)
+[wiki](https://github.com/redwoodtj/wiki) | [projects](https://github.com/redwoodtj/projects)
 
 ## Project Summary
 
@@ -46,7 +46,7 @@ At a high level, we're doing the following concrete tasks:
 * slow progress
 * high level of community excitement
 * increasing number of collaborators
-* [phase 1](https://github.com/ericsnowcurrently/multi-core-python/projects/4) ("minimal solution") completion getting closer
+* [phase 1](https://github.com/redwoodtj/projects/4) ("minimal solution") completion getting closer
    * still hopeful for Python 3.9
    * PEP 554 low-level implementation mostly complete
    * currently working on moving globals to runtime/interpreter state (or removing them)
@@ -64,6 +64,8 @@ This project wouldn't be what it is without the help of these great people:
 * @nanjekyejoannah - C-API; PEP 554 high-level module
 * @eduardo-elizondo (Facebook/Instagram) - extension modules; globals
 * @vsajip - globals
+* @redwoodtj-github
+* @ericsnowcurrently
 * many others
 
 ## Contributing
@@ -72,6 +74,6 @@ There are many ways to contribute to this project.  Aside from the main technica
 
 Keep in mind that this project/repo is actually just a tool to organize the effort.  The actual work is done on [bugs.python.org](https://bugs.python.org/), [github.com/python/cpython](https://github.com/python/cpython/), and the [python-dev](https://mail.python.org/archives/list/python-dev@python.org/) mailing list.
 
-Also note that contacting [@ericsnowcurrently](https://github.com/ericsnowcurrently) directly is fine, but you might get a faster response through those other channels or through the issue tracker here. :)
+Also note that contacting [@redwoodtj](https://github.com/redwoodtj) directly is fine, but you might get a faster response through those other channels or through the issue tracker here. :)
 
-For more information see the [wiki page](https://github.com/ericsnowcurrently/multi-core-python/wiki/9-%22How-Can-I-Help%3F%22).
+For more information see the [wiki page](https://github.com/ericsnowcurrently/redwoodtj/wiki/9-%22How-Can-I-Help%3F%22).
